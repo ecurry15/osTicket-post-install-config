@@ -21,7 +21,8 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Add new Roles, Departments, and Teams.
 - Add new Agents (workers), allow anyone to create tickets.
 - Add new Users (customers)
-- Configure SLA and Help Topics
+- Configure SLA
+- Configure Help Topics
 
 <h2>Configuration Steps</h2>
 
@@ -65,6 +66,13 @@ This tutorial outlines the post-install configuration of the open-source help de
 <img src="https://i.ibb.co/r0cz4gX/lab4-8.png" height="70%" width="70%" alt=""/>
 </p>
 <p>
-4 Configure SLA and Help Topics. To configure "SLA", go back to the "Admin Panel" -> click "Manage" -> click the "SLA" tab -> click "Add New SLA Plan". Name it "SEV-A", make the schedule "24/7", and make the grace period "1 hour". Add another plan, name it "SEV-B", make the schedule "24/7", and make the grace period "4 hours". Add one more plan, name it "SEV-C", make the schedule "Monday - Friday 8 am - 5 pm", and make the grace period "8 hours".
+4. Configure SLA and Help Topics. To configure "SLA", go back to the "Admin Panel" -> click "Manage" -> click the "SLA" tab -> click "Add New SLA Plan". Name it "SEV-A", make the schedule "24/7", and make the grace period "1 hour". Add another plan, name it "SEV-B", make the schedule "24/7", and make the grace period "4 hours". Add one more plan, name it "SEV-C", make the schedule "Monday - Friday 8 am - 5 pm", and make the grace period "8 hours".
 </p>
+<br />
+
+<p>
+<img src="https://i.ibb.co/6wqr1mg/lab4-9.png" height="70%" width="70%" alt=""/>
+</p>
+<p>
+4. Configure Help Topics. While in the "Admin Panel", click "Manage" -> "Help Topics" -> "Add New Help Topic". name the topic "Business Critical Outage", leave the parent topic as is. Repeat the steps and create more help topics named "Personal Computer Issues", "Equipment Request", and "Password Reset". The osTicket post-installion steps are now complete.
 <br />
