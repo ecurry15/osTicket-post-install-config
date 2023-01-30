@@ -19,10 +19,9 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h2>Post-Install Configuration Objectives</h2>
 
 - Add new Roles, Departments, and Teams.
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Add new Agents (workers), allow anyone to create tickets.
+- Add new Users (customers)
+- Configure SLA and Help Topics
 
 <h2>Configuration Steps</h2>
 
@@ -41,17 +40,31 @@ This tutorial outlines the post-install configuration of the open-source help de
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.ibb.co/fCvJWrk/lab4-4.png" height="70%" width="70%" alt=""/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.ibb.co/6yJ6KSt/lab4-5.png" height="70%" width="70%" alt=""/>
+</p>
+<p>
+<img src="https://i.ibb.co/yVpgcms/lab4-6.png" height="70%" width="70%" alt=""/>
+</p>
+<p>
+2. Add new Agents(workers). While in the Admin Panel, click the "Agents" tab -> "Add New". Give the agent a name, email, username, and password. Next, click the "Access" tab and assign them to the "System Administrators" department with the role of "Supreme Admin". Lastly, add them to the "Level II Support" team. Next, create a another agent. Assign agent #2 to the "Support" department with the role of "View Only". Next, allow anyone to create a ticket. While in the Admin panel, click settings -> Users -> then under "Authentication Settings" make sure "Require registration and login to create tickets" is unchecked. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.ibb.co/w4MzcVT/lab4-7.png" height="70%" width="70%" alt=""/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+3. Add new Users(customers). Switch to the "Agent Panel" -> click the "Users" tab -> click "Add User". Give the user a name and an email. Reapet to add an additional user.
+</p>
+<br />
+
+<p>
+<img src="https://i.ibb.co/r0cz4gX/lab4-8.png" height="70%" width="70%" alt=""/>
+</p>
+<p>
+4 Configure SLA and Help Topics. To configure "SLA", go back to the "Admin Panel" -> click "Manage" -> click the "SLA" tab -> click "Add New SLA Plan". Name it "SEV-A", make the schedule "24/7", and make the grace period "1 hour". Add another plan, name it "SEV-B", make the schedule "24/7", and make the grace period "4 hours". Add one more plan, name it "SEV-C", make the schedule "Monday - Friday 8 am - 5 pm", and make the grace period "8 hours".
 </p>
 <br />
